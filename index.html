@@ -41,7 +41,7 @@
             <div class="time-bar">
               <span id="currentTime1">0:00</span>
               <input type="range" id="progressBar1" value="0" max="100" />
-              <span id="duration1">0:00</span>
+              <span id="duration1">3:33</span>
             </div>
           </div>
 
@@ -77,7 +77,7 @@
             <div class="time-bar">
               <span id="currentTime2">0:00</span>
               <input type="range" id="progressBar2" value="0" max="100" />
-              <span id="duration2">0:00</span>
+              <span id="duration2">2:51</span>
             </div>
           </div>
 
@@ -98,8 +98,8 @@
           <div class="song-info">
             <img src="cover3.jpg" alt="Album Art" />
             <div>
-              <h4 id="trackTitle1">Mera Vondo Rajib</h4>
-              <p id="trackArtist1">Praloy</p>
+              <h4 id="trackTitle3">Mera Vondo Rajib</h4>
+              <p id="trackArtist3">Praloy</p>
             </div>
           </div>
 
@@ -113,7 +113,7 @@
             <div class="time-bar">
               <span id="currentTime3">0:00</span>
               <input type="range" id="progressBar3" value="0" max="100" />
-              <span id="duration3">0:00</span>
+              <span id="duration3">1:39</span>
             </div>
           </div>
 
@@ -149,7 +149,7 @@
             <div class="time-bar">
               <span id="currentTime4">0:00</span>
               <input type="range" id="progressBar4" value="0" max="100" />
-              <span id="duration4">0:00</span>
+              <span id="duration4">3:50</span>
             </div>
           </div>
 
@@ -157,6 +157,42 @@
             <i class="fas fa-volume-up"></i>
             <input type="range" min="0" max="1" step="0.01" value="1" onchange="setVolume(this, 'audioPlayer4')" />
             <a href="Ekta_Premer_Gaan_Likhechi.unknown" download>download</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bomba Anthem-->
+      <div class="song-card" data-title="Bomba Anthem">
+        <h3 class="song-title">Bomba Anthem</h3>
+        <audio id="audioPlayer5" src="Bomba Anthem.mp3"></audio>
+
+        <div class="bottom-player">
+          <div class="song-info">
+            <img src="cover5.jpg" alt="Album Art" />
+            <div>
+              <h4 id="trackTitle5">Bomba</h4>
+              <p id="trackArtist5">Praloy</p>
+            </div>
+          </div>
+
+          <div class="player-controls">
+            <button onclick="skipBackward('audioPlayer5')"><i class="fas fa-backward"></i></button>
+            <button onclick="togglePlay('audioPlayer5', this)" id="playPause5">
+              <i class="fas fa-play"></i>
+            </button>
+            <button onclick="skipForward('audioPlayer5')"><i class="fas fa-forward"></i></button>
+
+            <div class="time-bar">
+              <span id="currentTime5">0:00</span>
+              <input type="range" id="progressBar5" value="0" max="100" />
+              <span id="duration5">1:47</span>
+            </div>
+          </div>
+
+          <div class="volume">
+            <i class="fas fa-volume-up"></i>
+            <input type="range" min="0" max="1" step="0.01" value="1" onchange="setVolume(this, 'audioPlayer5')" />
+            <a href="Bomba Anthem.mp3" download>download</a>
           </div>
         </div>
       </div>
